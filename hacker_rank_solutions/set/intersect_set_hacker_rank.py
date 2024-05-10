@@ -1,0 +1,5 @@
+n = input()
+list_english = input().split()    
+b = input()
+list_french = input().split()
+print(len((set(list_english)).intersection(set(list_french))))
